@@ -58,18 +58,20 @@ describe 'the Friday test :)' do
   specify 'get_first_half_of_string' do
     a = get_first_half_of_string 'banana'
     b = get_first_half_of_string 'apple'
+    c = get_first_half_of_string 'tamarind'
 
     expect(a).to eq 'ban'
     expect(b).to eq 'app'
+    expect(c).to eq 'tama'
   end
 
-  # specify 'make_numbers_negative' do
-  #   a = make_numbers_negative 5
-  #   b = make_numbers_negative -7
+  specify 'make_numbers_negative' do
+    a = make_numbers_negative 5
+    b = make_numbers_negative -7
 
-  #   expect(a).to eq -5
-  #   expect(b).to eq -7
-  # end
+    expect(a).to eq -5
+    expect(b).to eq -7
+  end
 
   # specify 'separate_array_into_even_and_odd_numbers' do
   #   n = separate_array_into_even_and_odd_numbers [1, 2, 3, 4, 5, 6, 7]
