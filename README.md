@@ -7,13 +7,9 @@ You should be able to answer most questions with a couple of lines of code, and 
 To run the specs, just run
 
 ~~~
-$ rspec questions_spec.rb
-~~~
-
-**Quick tip**: to run a single example, change `it` to `fit` on that example, then run
-
-~~~
-$ rspec questions_spec.rb --tag focus
+git clone https://github.com/painted/week9-test
+cd week9-test
+rspec
 ~~~
 
 Also, don't spend the whole weekend on this. Try and do the bulk of them today, revisit it a bit this weekend if you want. Spend the weekend consolodating the stuff we've covered on Rails and JS, and carrying on with your yelp apps :smile:
