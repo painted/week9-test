@@ -4,6 +4,8 @@ Here we're going to revisit the basics of Ruby. There are 41 questions - you don
 
 You should be able to answer most questions with a couple of lines of code, and just a few methods. If you're writing a long, complex solution, there's probably a better way.
 
+![Week9](http://www.paintedchef.com/images/Week9.png)
+
 To run the specs, just run
 
 ~~~
