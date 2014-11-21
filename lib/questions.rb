@@ -80,6 +80,7 @@ end
 def separate_array_into_even_and_odd_numbers(array)
 	a = []
 	b = []
+	c = []
 	array.each do |number|
 		if number.even?
 			a << number
@@ -87,8 +88,9 @@ def separate_array_into_even_and_odd_numbers(array)
 			b << number
 		end
 	end
-	array << a
-	array << b  
+	c << a
+	c << b  
+	c
 end
 
 # count the numbers of elements in an element which are palindromes
