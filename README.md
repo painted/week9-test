@@ -32,3 +32,7 @@ Good luck
 * Don't forget Enumerable (advanced array methods)
 * Read the specs and the comments - if you're still confused, just ask.
 * Don't panic :wink:
+
+###Future Possiblities
+
+* Turn this into an online test that one can see when you have the correct answers
